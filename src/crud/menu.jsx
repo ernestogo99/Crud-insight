@@ -27,7 +27,10 @@ const Mymenu = () => {
   function dropmenuFornecedor() {
     return (
       <Box>
-        <Button sx={{ color: "white", my: 2 }} onClick={abrir_fornecedor}>
+        <Button
+          sx={{ color: "white", my: 2, fontSize: "0.8rem" }}
+          onClick={abrir_fornecedor}
+        >
           Fornecedores
         </Button>
         <Menu
@@ -68,6 +71,7 @@ const Mymenu = () => {
                 fontFamily: "monospace",
                 letterSpacing: "0.1rem",
                 fontWeight: 800,
+                fontSize: "1rem",
               }}
             >
               Insight_lab
