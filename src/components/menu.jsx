@@ -14,7 +14,6 @@ import { Link, Outlet } from "react-router-dom";
 
 const Mymenu = () => {
   const [anchor_fornecedor, setAnchorF] = useState(null);
-  const [anchor_inicio, setInicio] = useState(null);
 
   const abrir_fornecedor = (event) => {
     setAnchorF(event.currentTarget);
